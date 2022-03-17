@@ -46,6 +46,7 @@
     "@stdlib/stats-incr-mstdev": "^0.0.x",
     "@stdlib/stats-incr-msum": "^0.0.x",
     "@stdlib/stats-incr-mvariance": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
