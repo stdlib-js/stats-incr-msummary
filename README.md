@@ -24,14 +24,30 @@ limitations under the License.
 
 > Compute a moving statistical summary incrementally.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-msummary
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msummary@esm/index.mjs';
+var incrmsummary = require( '@stdlib/stats-incr-msummary' );
 ```
 
 #### incrmsummary( window )
@@ -130,14 +146,9 @@ summary = accumulator();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmsummary from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msummary@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var incrmsummary = require( '@stdlib/stats-incr-msummary' );
 
 var accumulator;
 var v;
@@ -152,10 +163,6 @@ for ( i = 0; i < 100; i++ ) {
     accumulator( v );
 }
 console.log( accumulator() );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -170,11 +177,11 @@ console.log( accumulator() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/incr/mmean`][@stdlib/stats/incr/mmean]</span><span class="delimiter">: </span><span class="description">compute a moving arithmetic mean incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/mstdev`][@stdlib/stats/incr/mstdev]</span><span class="delimiter">: </span><span class="description">compute a moving corrected sample standard deviation incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/msum`][@stdlib/stats/incr/msum]</span><span class="delimiter">: </span><span class="description">compute a moving sum incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/mvariance`][@stdlib/stats/incr/mvariance]</span><span class="delimiter">: </span><span class="description">compute a moving unbiased sample variance incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/summary`][@stdlib/stats/incr/summary]</span><span class="delimiter">: </span><span class="description">compute a statistical summary incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/mmean`][@stdlib/stats/incr/mmean]</span><span class="delimiter">: </span><span class="description">compute a moving arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/mstdev`][@stdlib/stats/incr/mstdev]</span><span class="delimiter">: </span><span class="description">compute a moving corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/msum`][@stdlib/stats/incr/msum]</span><span class="delimiter">: </span><span class="description">compute a moving sum incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/mvariance`][@stdlib/stats/incr/mvariance]</span><span class="delimiter">: </span><span class="description">compute a moving unbiased sample variance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/summary`][@stdlib/stats/incr/summary]</span><span class="delimiter">: </span><span class="description">compute a statistical summary incrementally.</span>
 
 </section>
 
@@ -189,7 +196,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -251,15 +258,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/esm
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean
 
-[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev/tree/esm
+[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev
 
-[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/esm
+[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum
 
-[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance/tree/esm
+[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance
 
-[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary/tree/esm
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary
 
 <!-- </related-links> -->
 
