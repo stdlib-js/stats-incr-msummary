@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-msummary",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Compute a moving statistical summary incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-positive-integer": "^0.2.2",
+    "@stdlib/assert-is-positive-integer": "^0.2.3",
     "@stdlib/stats-incr-mmax": "^0.2.2",
     "@stdlib/stats-incr-mmean": "^0.2.2",
     "@stdlib/stats-incr-mmidrange": "^0.2.2",
@@ -45,14 +45,14 @@
     "@stdlib/stats-incr-mrange": "^0.2.2",
     "@stdlib/stats-incr-mstdev": "^0.2.2",
     "@stdlib/stats-incr-msum": "^0.2.2",
-    "@stdlib/stats-incr-mvariance": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/stats-incr-mvariance": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-base-zeros": "^0.2.2",
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
