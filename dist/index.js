@@ -1,5 +1,0 @@
-"use strict";var d=function(r,a){return function(){return a||r((a={exports:{}}).exports,a),a.exports}};var g=d(function(j,o){
-var f=require('@stdlib/assert-is-positive-integer/dist').isPrimitive,p=require('@stdlib/stats-incr-msum/dist'),l=require('@stdlib/stats-incr-mmean/dist'),w=require('@stdlib/stats-incr-mvariance/dist'),y=require('@stdlib/stats-incr-mstdev/dist'),h=require('@stdlib/stats-incr-mmin/dist'),P=require('@stdlib/stats-incr-mmax/dist'),E=require('@stdlib/stats-incr-mrange/dist'),I=require('@stdlib/stats-incr-mmidrange/dist'),M=require('@stdlib/error-tools-fmtprodmsg/dist');function T(r){var a,m,e,n,v,u,t,s,c;if(!f(r))throw new TypeError(M('1JF8B',r));return a=w(r),m=I(r),n=E(r),v=y(r),u=l(r),t=p(r),c=h(r),s=P(r),e={},q;function q(i){return arguments.length===0||(e.window=r,e.sum=t(i),e.mean=u(i),e.variance=a(i),e.stdev=v(i),e.min=c(i),e.max=s(i),e.range=n(i),e.midrange=m(i)),e}}o.exports=T
-});var V=g();module.exports=V;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
